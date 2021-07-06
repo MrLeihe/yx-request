@@ -1,0 +1,22 @@
+{
+  "name": "yx-request",
+  "version": "0.0.1",
+  "description": "优选创新前端请求库",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gogs.miz.so:stonehe/yx-request.git"
+  },
+  "keywords": [
+    "request",
+    "http"
+  ],
+  "author": "yxcx",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

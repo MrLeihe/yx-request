@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "types",
+    "baseUrl": ".",
+    "strict": true,
+    "moduleResolution": "node",
+    "lib": ["es6", "dom"],
+    "declaration": true,
+    "removeComments": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

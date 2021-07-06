@@ -1,0 +1,22 @@
+# OSX
+.DS_Store
+
+# IDE
+.vscode/
+*.iml
+.idea/
+
+# npm
+node_modules/
+*.log
+*.bak
+
+# jest
+coverage
+
+# build
+/temp
+dist
+lib
+!packages/create-fe-app/lib
+es
