@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "outDir": "types",
+    "outDir": "dist",
     "baseUrl": ".",
     "strict": true,
     "moduleResolution": "node",
@@ -14,6 +14,6 @@
     "noImplicitAny": false,
     "esModuleInterop": true
   },
-  "include": ["src"],
+  "include": ["lib", "test/get.js"],
   "exclude": ["node_modules"]
 }

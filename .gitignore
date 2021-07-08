@@ -17,6 +17,5 @@ coverage
 # build
 /temp
 dist
-lib
-!packages/create-fe-app/lib
+!lib
 es

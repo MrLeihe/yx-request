@@ -4,6 +4,8 @@
   "description": "优选创新前端请求库",
   "main": "src/index.js",
   "scripts": {
+    "start": "node examples/server.js",
+    "build": "tsc",
     "test": "jest"
   },
   "repository": {
@@ -18,5 +20,10 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.0.1",
+    "jest": "^27.0.6"
   }
 }
