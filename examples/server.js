@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
   console.log('url:', url)
 
   if (url === '/') {
-    send200(res, JSON.stringify({ status: 0, data: {}, msg: 'ok' }))
+    send200(res, JSON.stringify({ status: -1, data: {}, msg: 'ok' }))
   } else {
     send404(res)
   }
